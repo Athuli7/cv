@@ -1,0 +1,27 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "CV site generator",
+  "main": "cv.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node cv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Athuli7/cv.git"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Athul Raj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Athuli7/cv/issues"
+  },
+  "homepage": "https://github.com/Athuli7/cv#readme"
+}
