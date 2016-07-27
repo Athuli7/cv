@@ -10,7 +10,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
   fs.readFile(filePath, function (err, content) {
     if (err) return callback(new Error(err));// this is an extremely simple template engine
     //Me
-    var rendered = content.toString()
+    var rendered = content.toString();
     rendered.replace('#title#', '<title>'+ options.title +'</title>');
     rendered.replace('#description#','<meta name="description" content="'+options.title+'">')
     rendered.replace('#author#', '<meta name="author" content="'+options.author+'">');
