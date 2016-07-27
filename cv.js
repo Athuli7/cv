@@ -128,8 +128,8 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		"</i> on "+ "<a href=\"https://nodejs.org/\">Node.js </a>("+depslist+")"+
 		" by "+package.author+ " under a "+package.license+" license"+
 		"</small>"+"<br><small class=\"copyright\">Updated copy is always available at "+
-		"<a href=\""+options.linktocv+"\">"+options.linktocv+"</a></small>"+"<br><small class=\"copyright\">Offline copy available at "+
-		"<a href=\""+options.linktocv+"\\download\">"+options.linktocv+"\\download</a></small>"
+		"<a href=\"//"+options.linktocv+"\">"+options.linktocv+"</a></small>"+"<br><small class=\"copyright\">Offline copy available at "+
+		"<a href=\"//"+options.linktocv+"/download\">"+options.linktocv+"\\download</a></small>"
 		);
 	    //!Me
 	    return callback(null, rendered);
