@@ -29,7 +29,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		//xp
 		//skill
 		var SkillView = "";
-		for(vat skillInd in cvContentOptions.skills){
+		for(var skillInd in cvContentOptions.skills){
 			var tempSkill = cvContentOptions.skills[skillInd];
 			var tempSkillview = skillItemView;
 			tempSkillview = tempSkillview.replace('#skillname#',tempSkill.domain+"["+tempSkill.framework+"]");
