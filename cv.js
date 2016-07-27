@@ -16,10 +16,10 @@ app.get('/redirect', function(req, res){
 	res.redirect(302,'/');
 });
 
-/*
+
 app.get('/redirect', function(req, res){
-	
-});*/
+	app.render(index);
+});
 
 //
 
