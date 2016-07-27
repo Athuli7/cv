@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var cvContentOptions = JSON.parse(fs.readFileSync('cvContentOptions.json');
-var cvEngineOptions = JSON.parse(fs.readFileSync('cvEngineOptions.json');
+var cvContentOptions = JSON.parse(fs.readFileSync('cvContentOptions.json'));
+var cvEngineOptions = JSON.parse(fs.readFileSync('cvEngineOptions.json'));
 
 app.engine('cv', function (filePath, options, callback) { // define the template engine
   fs.readFile(filePath, function (err, content) {
