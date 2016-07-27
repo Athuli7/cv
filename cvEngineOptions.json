@@ -14,5 +14,13 @@
 	["#stylecss#",
 	"<link id=\"theme-style\" rel=\"stylesheet\" href=\"assets/css/",
 	"stylecss",
-	"\">"]
+	"\">"],
+	["#name#",
+	"<h1 class=\"name\">",
+	"name",
+	"</h1>"],
+	["#tagline#",
+	"<h3 class=\"tagline\">",
+	"tagline",
+	"</h3>"]
 ]

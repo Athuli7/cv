@@ -48,8 +48,8 @@
         <div class="sidebar-wrapper">
             <div class="profile-container">
                 <img class="profile" src="assets/images/profile.png" alt="" />
-                <h1 class="name">Athul Raj</h1>
-                <h3 class="tagline">Developer</h3>
+                #name#
+                #tagline#
             </div><!--//profile-container-->
             
             <div class="contact-container container-block">
@@ -60,6 +60,7 @@
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/athul-raj-b6070767" target="_blank">linkedin.com/in/athul-raj</a></li>
                     <li class="github"><i class="fa fa-github"></i><a href="https://github.com/athuli7" target="_blank">github.com/athuli7</a></li>
                     <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/i_athul" target="_blank">@i_athul</a></li>
+                    #social#
                 </ul>
             </div><!--//contact-container-->
             <div class="education-container container-block">
@@ -230,8 +231,7 @@
  
     <footer class="footer">
         <div class="text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+            #footer#
         </div><!--//container-->
     </footer><!--//footer-->
  

@@ -1,5 +1,63 @@
 {
 	"title"	: "Athul Raj's CV",
-	"author"	: "Athul Raj",
-	"stylecss": "styles.css"
+	"name"	: "Athul Raj",
+	"stylecss": "styles.css",
+	"tagline" : "Developer",
+	"intro" : "",
+	"works":[
+		{
+			"name":"NaviGo"
+		}
+	],
+	"xp":[
+		{
+			"company":
+		}
+	],
+	"social":{
+		"twitter":{
+
+		}
+	},
+	"skills":[
+		{
+			"domain":"PHP",
+			"framework":"Laravel",
+			"pro":98
+		},
+		{
+			"domain":"PHP",
+			"pro":98
+		},
+		{
+			"domain":"Node.js",
+			"framework":"Express",
+			"pro":98
+		},
+		{
+			"domain":"Node.js",
+			"framework":"Total.js",
+			"pro":98
+		},
+		{
+			"domain":"Node.js",
+			"framework":"Socket.io",
+			"pro":98
+		},
+		{
+			"domain":"c#",
+			"pro":98
+		},
+		{
+			"domain":"c#",
+			"framework":"Xamarin",
+			"pro":98
+		},
+		{
+			"domain":"",
+			"framework":"Xamarin",
+			"pro":98
+		},
+
+	]
 }
