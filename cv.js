@@ -148,9 +148,10 @@ app.get('/', function(req, res){
 });
 
 app.get('/download',function(req, res){
-	res.write("RT Download coming soon...<br>For now download the static one.");
-	res.redirect(302,'../Athul_Raj.pdf');
+	//res.write("RT Download coming soon...<br>For now download the static one.");
+	//res.redirect(302,'../Athul_Raj.pdf');
 	//res.end('<script type="text/javascript">window.location = "Athul_Raj.pdf";</script>');
+	res.sendFile('Athul_Raj.pdf');
 });
 
 app.use(express.static('public'));
