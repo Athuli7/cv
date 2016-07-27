@@ -112,7 +112,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 			tempSkillView = sklItemView;
 			var tempString1 = tempSkill.domain;
 			if (tempSkill.framework != null)
-				tempString1 += "[" + tempSkill.framework + "]";
+				tempString1 += " [" + tempSkill.framework + "]";
 			tempSkillView = tempSkillView.replace('#name#', tempString1);
 			tempSkillView = tempSkillView.replace('#percent#',tempSkill.pro);
 			SkillView += tempSkillView;
@@ -128,7 +128,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		"<small class=\"copyright\">Designed with <i class=\"fa fa-heart\">"+
 		"</i> on "+ "<a href=\"https://nodejs.org/\">Node.js </a>("+depslist+")"+
 		" by "+package.author+ " under a "+package.license+" license"+
-		"</small>"+"<br><small class=\"copyright\">Updated copy is always available at "+
+		"</small>"+"<br><small class=\"copyright\">Updated copy is always available "+
 		"<a href=\"//"+options.linktocv+"\">"+options.linktocv+"</a></small>"+"<br><small class=\"copyright\">Offline copy available at "+
 		"<a href=\"//"+options.linktocv+"/Athul_Raj.pdf\">here</a></small>"
 		);
