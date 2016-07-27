@@ -8,7 +8,7 @@ var package = JSON.parse(fs.readFileSync('package.json'));
 
 //var exptemView = fs.readFileSync('views/expItemView.cv');
 var skillItemView = fs.readFileSync('views/skillItemView.cv','utf8');
-var projectItemView = fs.readFileSync('views/projectItemView.cv');
+var projectItemView = fs.readFileSync('views/workItemView.cv');
 
 app.engine('cv', function (filePath, options, callback) { // define the template engine
 	fs.readFile(filePath, function (err, content) {
