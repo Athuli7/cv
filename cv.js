@@ -34,8 +34,8 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 			var tempSkillview = "";
 			tempSkillview = skillItemView;
 			console.log(skillItemView);
-			tempSkillview = tempSkillview.replace('#skillname#', tempSkill.domain + "[" + tempSkill.framework + "]" );
-			tempSkillview = tempSkillview.replace('#percent#',tempSkill.pro);
+			//tempSkillview = tempSkillview.replace('#skillname#', tempSkill.domain + "[" + tempSkill.framework + "]" );
+			//tempSkillview = tempSkillview.replace('#percent#',tempSkill.pro);
 			SkillView += tempSkillview;
 		}
 		rendered = rendered.replace('#skill#');
