@@ -11,4 +11,4 @@ app.get('/index.html', function(req, res){
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(9001,0.0.0.0);
+app.listen(9001,'0.0.0.0');
