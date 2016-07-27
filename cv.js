@@ -17,10 +17,10 @@ app.engine('cv', function (filePath, options, callback) { // define the template
     //rendered = rendered.replace('#stylecss#', '<link id="theme-style" rel="stylesheet" href="assets/css/'+options.stylecss+'">');
     //rendered.replace('', ''+options.author+'');
     	rendered = rendered.replace(opt[0],opt[1],options[opt[2]],opt[3]);
-    	console.log(cvEngineOptions[opt[0]]);
-    	console.log(cvEngineOptions[opt[1]]);
-    	console.log(options[cvEngineOptions[opt[2]]]);
-    	console.log(cvEngineOptions[opt[3]]);
+    	console.log(cvEngineOptions[opt][0]);
+    	console.log(cvEngineOptions[opt][1]);
+    	console.log(options[cvEngineOptions[opt][2]]);
+    	console.log(cvEngineOptions[opt][3]);
 	}
     //!Me
     return callback(null, rendered);
