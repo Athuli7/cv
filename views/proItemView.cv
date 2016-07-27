@@ -1,5 +1,5 @@
                 <div class="item">
-                    <span class="project-title">
+                    <span class="project-title"><strong>
                     <a href="#link#" traget="_blank">#name#</a>
-                    </span> - <span class="project-tagline">#tagline#</span>
+                    </strong></span> - <span class="project-tagline">#tagline#</span>
                 </div><!--//item-->
