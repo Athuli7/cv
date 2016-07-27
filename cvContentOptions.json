@@ -5,6 +5,23 @@
 	"stylecss": "styles.css",
 	"tagline" : "Developer",
 	"intro" : "",
+	"ints":[
+		{
+			"name":"Internet of Things"
+		},
+		{
+			"name":"Embedded Systems"
+		},
+		{
+			"name":"Automation Systems"
+		},
+		{
+			"name":"Realtime Services"
+		},
+		{
+			"name":"On Demand Services"
+		}
+	],
 	"lans":[
 		{
 			"name":"English",

@@ -41,6 +41,16 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 			SocView += tempSocView;
 		}
 		rendered = rendered.replace('#socView#',SocView);
+		//intial
+		var IntView = "";
+		for(var intInd in cvContentOptions.ints){
+			var tempInt = cvContentOptions.ints[intInd];
+			var tempIntView = "";
+			tempIntView = intItemView;
+			tempIntView = tempIntView.replace('#name#', tempInt.name);
+			IntView += tempIntView;
+		}
+		rendered = rendered.replace('#intView#',IntView);
 		//education
 		var EduView = "";
 		for(var eduInd in cvContentOptions.edus){
