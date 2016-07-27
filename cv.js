@@ -1,11 +1,23 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-
+var gOpts = {
+	title	: 'Athul Raj\'s CV',
+	author	: 'Athul Raj',
+	stylecss: 'styles.css'
+};
 app.engine('cv', function (filePath, options, callback) { // define the template engine
   fs.readFile(filePath, function (err, content) {
     if (err) return callback(new Error(err));// this is an extremely simple template engine
-    var rendered = content.toString().replace('#title#', '<title>'+ options.title +'</title>');
+    //Me
+    var rendered = content.toString()
+    rendered.replace('#title#', '<title>'+ options.title +'</title>');
+    rendered.replace('#description#','<meta name="description" content="'+options.title+'">')
+    rendered.replace('#author#', '<meta name="author" content="'+options.author+'">');
+    rendered.replace('#stylecss#', '<link id="theme-style" rel="stylesheet" href="assets/css/'+options.stylecss+'">');
+    //rendered.replace('', ''+options.author+'');
+
+    //!Me
     return callback(null, rendered);
   });
 });
@@ -18,7 +30,7 @@ app.get('/redirect', function(req, res){
 });
 
 app.get('/', function(req, res){
-	res.render('norm',{title:'Athul Raj\'s CV'});
+	res.render('norm',gOpts);
 });
 
 //
