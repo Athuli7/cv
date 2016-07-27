@@ -9,6 +9,10 @@ var package = JSON.parse(fs.readFileSync('package.json'));
 var expItemView = fs.readFileSync('views/expItemView.cv','utf8');
 var sklItemView = fs.readFileSync('views/sklItemView.cv','utf8');
 var proItemView = fs.readFileSync('views/proItemView.cv','utf8');
+var lanItemView = fs.readFileSync('views/lanItemView.cv','utf8');
+var socItemView = fs.readFileSync('views/socItemView.cv','utf8');
+var intItemView = fs.readFileSync('views/intItemView.cv','utf8');
+var eduItemView = fs.readFileSync('views/eduItemView.cv','utf8');
 
 app.engine('cv', function (filePath, options, callback) { // define the template engine
 	fs.readFile(filePath, function (err, content) {
@@ -26,7 +30,19 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		}
 		//social
 		//xp
-
+		var ExpView = "";
+		for(var proInd in cvContentOptions.exp){
+			var tempExp = cvContentOptions.exp[expInd];
+			var tempExpView = "";
+			tempExpView = expItemView;
+			tempExpView = tempExpView.replace('#title#', tempExp.title);
+			tempExpView = tempExpView.replace('#period#', tempExp.period);
+			tempExpView = tempExpView.replace('#company#', tempExp.company);
+			tempExpView = tempExpView.replace('#detail1#', tempExp.detail1);
+			tempExpView = tempExpView.replace('#detail2#', tempExp.detail2);
+			ExpView += tempExpView;
+		}
+		rendered = rendered.replace('#expView#',ExpView);
 		//works
 		var ProjectView = "";
 		for(var proInd in cvContentOptions.pros){
@@ -34,6 +50,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 			var tempProView = "";
 			tempProView = proItemView;
 			tempProView = tempProView.replace('#name#', tempPro.name);
+			tempProView = tempProView.replace('#link#', tempPro.link);
 			tempProView = tempProView.replace('#tagline#',tempPro.tagline);
 			ProjectView += tempProView;
 		}
