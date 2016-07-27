@@ -5,7 +5,8 @@
   "main": "cv.js",
   "dependencies": {
     "express": "^4.14.0",
-    "phantom": "^2.1.13"
+    "phantom": "^2.1.13",
+    "phantomjs-pdf": "^0.1.2"
   },
   "devDependencies": {},
   "scripts": {

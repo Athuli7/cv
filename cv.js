@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var phantom = require('phantom');
 
 var sitepage = null;
 var phInstance = null;
@@ -148,29 +147,8 @@ app.get('/', function(req, res){
 });
 
 app.get('/download',function(req, res){
-	phantom.create()
-    .then(instance => {
-        phInstance = instance;
-        return instance.createPage();
-    })
-    .then(page => {
-        sitepage = page;
-        return page.open('https://stackoverflow.com/');
-    })
-    .then(status => {
-        console.log(status);
-        return sitepage.property('content');
-    })
-    .then(content => {
-        console.log(content);
-        sitepage.close();
-        phInstance.exit();
-    })
-    .catch(error => {
-        console.log(error);
-        phInstance.exit();
-    });
-    res.render(sitepage);
+	res.write("RT Download coming soon...<br>For now download the static one.");
+	res.end('<script type="text/javascript">window.location = "cv/";</script>');
 });
 
 app.use(express.static('public'));
