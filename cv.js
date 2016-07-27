@@ -129,7 +129,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		" by "+package.author+ " under a "+package.license+" license"+
 		"</small>"+"<br><small class=\"copyright\">Updated copy is always available at "+
 		"<a href=\"//"+options.linktocv+"\">"+options.linktocv+"</a></small>"+"<br><small class=\"copyright\">Offline copy available at "+
-		"<a href=\"//"+options.linktocv+"/download\">"+options.linktocv+"/download</a></small>"
+		"<a href=\"//"+options.linktocv+"/Athul_Raj.pdf\">here</a></small>"
 		);
 	    //!Me
 	    return callback(null, rendered);
@@ -145,13 +145,6 @@ app.get('/redirect', function(req, res){
 
 app.get('/', function(req, res){
 	res.render('norm',cvContentOptions);
-});
-
-app.get('/download',function(req, res){
-	//res.write("RT Download coming soon...<br>For now download the static one.");
-	//res.redirect(302,'../Athul_Raj.pdf');
-	//res.end('<script type="text/javascript">window.location = "Athul_Raj.pdf";</script>');
-	res.sendFile('Athul_Raj.pdf');
 });
 
 app.use(express.static('public'));
