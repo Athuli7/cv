@@ -43,11 +43,32 @@
 		{
 			"name":"NaviGo",
 			"link":"https://rtloc.tk",
-			"tagline":"RT Location Services<br><p>p2p location sharing, chat and voice calls</p>"
+			"tagline":"RT Location Services<br><p>A p2p e2e encypted service for location sharing, chat and voice calls</p>"
 		},
 		{
-			"name":"NaviGo",
-			"tagline":"RT Location"
+			"name":"Pipeline",
+			"link":"https://github.com/anushbmx/pipeline",
+			"tagline":"DSC based EDMS<br><p>A DSC based Freeform EDMS. The service was designed to be freeform so that its deployment could be seamless and would require little or no training of users. It further simplified matters by not requiring a login based user authentication</p>"
+		},
+		{
+			"name":"SRGen",
+			"link":"https://github.com/anushbmx/srgen",
+			"taglin":"Service Request Generator<br><p>Autofill for PDF forms. Most EDMS systems used PDF forms, which often required data to be entered. In many enterprises and institutions, such EDM systems required the same data to be added over and over. SRGen solves this by filling them for the user. Designed to be an optional suppliment to Pipeline.</p>"
+		},
+		{
+			"name":"SRGen",
+			"link":"",
+			"taglin":"<br><p></p>"
+		},
+		{
+			"name":"SRGen",
+			"link":"",
+			"taglin":"<br><p></p>"
+		},
+		{
+			"name":"SRGen",
+			"link":"",
+			"taglin":"<br><p></p>"
 		}
 	],
 	"exps":[
