@@ -30,7 +30,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		//works
 		var ProjectView = "";
 		for(var proInd in cvContentOptions.pros){
-			var tempPro = cvContentOptions.works[workInd];
+			var tempPro = cvContentOptions.pros[proInd];
 			var tempProView = "";
 			tempProView = proItemView;
 			tempProView = tempProView.replace('#name#', tempPro.name);
