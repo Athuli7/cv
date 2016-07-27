@@ -17,7 +17,7 @@ app.get('/redirect', function(req, res){
 });
 
 app.get('/', function(req, res){
-	res.render(index,{title:'Athul Raj\'s CV'});
+	res.render('index',{title:'Athul Raj\'s CV'});
 });
 
 //
