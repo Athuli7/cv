@@ -91,9 +91,9 @@
 			"tagline":"Smart Plug<br><p>Hookup any electrical device to the Internet, to control, monitor and manage it.</p>"
 		},
 		{
-			"name":"",
-			"link":"",
-			"tagline":"<br><p></p>"
+			"name":"RunACorp",
+			"link":"http://runacorp.com/",
+			"tagline":"Enterprise Software Services<br><p>CRM, HRM, ERP etc.</p>"
 		}
 	],
 	"exps":[
@@ -156,7 +156,6 @@
 			"href" : "https://twitter.com/i_athul",
 			"text" : "@i_athul"
 		}
-		
 	],
 	"skls":[
 		{
@@ -200,7 +199,6 @@
 			"domain":"Javascript",
 			"framework":"jQuery",
 			"pro":80
-		},
-
+		}
 	]
 }
