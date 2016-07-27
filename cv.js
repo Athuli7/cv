@@ -1,9 +1,14 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
+
 var cvContentOptions = JSON.parse(fs.readFileSync('cvContentOptions.json'));
 var cvEngineOptions = JSON.parse(fs.readFileSync('cvEngineOptions.json'));
 var package = JSON.parse(fs.readFileSync('package.json'));
+
+var exptemView = fs.readFileSync('views/expItemView.cv');
+var skillItemView = fs.readFileSync('views/skillItemView.cv');
+var projecttemView = fs.readFileSync('views/projectItemView.cv');
 
 app.engine('cv', function (filePath, options, callback) { // define the template engine
 	fs.readFile(filePath, function (err, content) {
@@ -22,6 +27,16 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		//social
 		//works
 		//xp
+		//skill
+		var SkillView = "";
+		for(vat skillInd in cvContentOptions.skills){
+			var tempSkill = cvContentOptions.skills[skillInd];
+			var tempSkillview = skillItemView;
+			tempSkillview = tempSkillview.replace('#skillname#',tempSkill.domain+"["+tempSkill.framework+"]");
+			tempSkillview = tempSkillview.replace('#percent#',tempSkill.pro);
+			SkillView += tempSkillview;
+		}
+		rendered = rendered.replace('#skill#');
 		//footer
 		var depslist = "";
 		for(var depIn in package.dependencies){
@@ -32,8 +47,8 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		"<small class=\"copyright\">Designed with <i class=\"fa fa-heart\">"+
 		"</i> on "+ "<a href=\"https://nodejs.org/\">Node.js </a>("+depslist+")"+
 		" by "+package.author+ " under a "+package.license+" license"+
-		"</small>"+"<br><small class=\"copyright\">updated copy always available at "+
-		"a href=\""+options.linktocv+"\">"+options.linktocv+"</a></small>"
+		"</small>"+"<br><small class=\"copyright\">Updated copy is always available at "+
+		"<a href=\""+options.linktocv+"\">"+options.linktocv+"</a></small>"
 		);
 	    //!Me
 	    return callback(null, rendered);
