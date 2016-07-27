@@ -7,7 +7,7 @@ var cvEngineOptions = JSON.parse(fs.readFileSync('cvEngineOptions.json'));
 var package = JSON.parse(fs.readFileSync('package.json'));
 
 //var exptemView = fs.readFileSync('views/expItemView.cv');
-var skillItemView = fs.readFileSync('views/skillItemView.cv');
+var skillItemView = fs.readFileSync('views/skillItemView.cv',[encoding:'utf8']);
 //var projecttemView = fs.readFileSync('views/projectItemView.cv');
 
 app.engine('cv', function (filePath, options, callback) { // define the template engine
