@@ -9,6 +9,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
     if (err) return callback(new Error(err));// this is an extremely simple template engine
     //Me
     var rendered = content.toString();
+    console.log(cvEngineOptions);
     for (var opt in cvEngineOptions){
     //rendered = rendered.replace('#title#', '<title>'+ options.title +'</title>');
     //rendered = rendered.replace('#description#','<meta name="description" content="'+options.title+'">');
