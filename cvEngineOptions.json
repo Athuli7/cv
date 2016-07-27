@@ -2,5 +2,17 @@
 	["#title#",
 	"<title>",
 	"title",
-	"</title>"]
+	"</title>"],
+	["#description#",
+	"<meta name=\"description\" content=\"",
+	"title",
+	"\">"],
+	["#author#",
+	"<meta name=\"author\" content=\"",
+	"author",
+	"\">"],
+	["#stylecss#",
+	"<link id=\"theme-style\" rel=\"stylesheet\" href=\"assets/css/",
+	"stylecss",
+	"\">"]
 ]
