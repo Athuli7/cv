@@ -4,7 +4,7 @@
 	"linktocv" : "cv.athulraj.com",
 	"stylecss": "styles.css",
 	"tagline" : "Developer",
-	"intro" : "I love anything that can built and/or hacked. ",
+	"intro" : "I love anything that can be built and/or hacked. ",
 	"ints":[
 		{
 			"name":"Internet of Things"
@@ -16,7 +16,7 @@
 			"name":"Automation Systems"
 		},
 		{
-			"name":"Realtime Services"
+			"name":"Real-time Services"
 		},
 		{
 			"name":"On Demand Services"
@@ -43,7 +43,7 @@
 		{
 			"name":"NaviGo",
 			"link":"https://rtloc.tk",
-			"tagline":"RT Location Services<br><p>A p2p e2e encypted service for location sharing, chat and voice calls.</p>"
+			"tagline":"RT Location Services<br><p>A p2p e2e encrypted service for location sharing, chat and voice calls.</p>"
 		},
 		{
 			"name":"Pipeline",
@@ -53,22 +53,22 @@
 		{
 			"name":"SRGen",
 			"link":"https://github.com/anushbmx/srgen",
-			"tagline":"Service Request Generator<br><p>Autofill for PDF forms. Most EDMS systems used PDF forms, which often required data to be entered. In many enterprises and institutions, such EDM systems required the same data to be added over and over. SRGen solves this by filling them for the user. Designed to be an optional suppliment to Pipeline.</p>"
+			"tagline":"Service Request Generator<br><p>Autofill for PDF forms. Most EDMS systems used PDF forms, which often required data to be entered. In many enterprises and institutions, such EDM systems required the same data to be added over and over. SRGen solves this by filling them for the user. Designed to be an optional supplement to Pipeline.</p>"
 		},
 		{
 			"name":"Giller",
 			"link":"https://www.npmjs.com/package/giller",
-			"tagline":"Webhook Handler<br><p>A Node.js based webhook handler for trigger events from version control systems such as github and bitbucket.</p>"
+			"tagline":"Webhook Handler<br><p>A Node.js based webhook handler for trigger events from version control systems such as GitHub and Bitbucket.</p>"
 		},
 		{
 			"name":"CodEngine",
 			"link":"https://bitbucket.org/codengineplatform/codengine",
-			"tagline":"Online Code Compiler<br><p>Organisation require developers who can code. There is no better way to check a developer's competance than to check his ability to solve mathematical problems using code. Codengine strives to achieve this.CodEngine also helps evaluate domain knowledge and ability to leverage it.</p>"
+			"tagline":"Online Code Compiler<br><p>Organisations require developers who can code. There is no better way to check a developer's competence than to check his ability to solve mathematical problems using code. Codengine strives to achieve this.CodEngine also helps evaluate domain knowledge and ability to leverage it.</p>"
 		},
 		{
 			"name":"mef",
 			"link":"https://www.npmjs.com/package/mef",
-			"tagline":"Mobile Entity Framework<br><p>A framework to Track, Ping and recieve inputs from mobile entities place on/with persons, assets and employees.<br>Trackers form the base of the system. Each tracker is connected to a network, of which the Server is part. Each tracker uses a Last Mile Delivery system to interact with a Mobile Entity. The Tracker is essentially a distributed proxy for the Server and is responsible for delivering the pings, identifying inputs and reporting presence to the server.</p>"
+			"tagline":"Mobile Entity Framework<br><p>A framework to Track, Ping and receive inputs from mobile entities place on/with persons, assets and employees.<br>Trackers form the base of the system. Each tracker is connected to a network, of which the Server is a part. Each tracker uses a Last Mile Delivery system to interact with a Mobile Entity. The Tracker is essentially a distributed proxy for the Server and is responsible for delivering the pings, identifying inputs and reporting presence to the server.</p>"
 		},
 		{
 			"name":"iMed",
@@ -78,7 +78,7 @@
 		{
 			"name":"Allopay",
 			"link":"https://allopay.scalexy.com",
-			"tagline":"Asynchronus Payment Processor / Gateway<br><p>Payment Gateway and Processors are using outdated methods, technologies and protocols. Allopay solves all of these in one go. Allopay is an centralised online platform for users to manage transactions related all accounts they hold in partner banks. All transactions are charged to the platform account and realised using EFTs between accounts. Electonic Standing Institutions and use of Asynchronus authorizations are implemented to enhance the UX and also reduce hassles such as timeouts. The system also provides a proper legal framework for recurring payment processing.</p>"
+			"tagline":"Asynchronous Payment Processor / Gateway<br><p>Payment Gateway and Processors are using outdated methods, technologies and protocols. Allopay solves all of these in one go. Allopay is a centralised online platform for users to manage transactions related all accounts they hold in partner banks. All transactions are charged to the platform account and realised using EFTs between accounts. Electonic Standing Institutions and use of Asynchronous authorizations are implemented to enhance the UX and also reduce hassles such as timeouts. The system also provides a proper legal framework for recurring payment processing.</p>"
 		},
 		{
 			"name":"OtoDor",
@@ -88,12 +88,12 @@
 		{
 			"name":"Auer",
 			"link":"https://bitbucket.org/account/user/acquaintances/projects/AUER",
-			"tagline":"Smart Plug<br><p>Hookup any electrical device to the Internet, to control, monitor and manage it. Features include, remote access, timed opertaion, surge protection, energy analytics and intelligence.</p>"
+			"tagline":"Smart Plug<br><p>Hookup any electrical device to the Internet, to control, monitor and manage it. Features include remote access, timed opertaion, surge protection, energy analytics and intelligence.</p>"
 		},
 		{
 			"name":"RunACorp",
 			"link":"http://runacorp.com/",
-			"tagline":"Enterprise Software Services<br><p>A suit of SaaS solutions to aid companies in running thier businesses. The solutions provided catered to HRM and CRM applications</p>"
+			"tagline":"Enterprise Software Services<br><p>A suit of SaaS solutions to aid companies in running their businesses. The solutions provided catered to HRM and CRM applications</p>"
 		}
 	],
 	"exps":[
