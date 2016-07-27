@@ -81,9 +81,14 @@
 			"tagline":"Asynchronus Payment Processor / Gateway<br><p>Payment Gateway and Processors are using outdated methods, technologies and protocols. Allopay solves all of these in one go. Allopay is an centralised online platform for users to manage transactions related all accounts they hold in partner banks. All transactions are charged to the platform account and realised using EFTs between accounts. Electonic Standing Institutions and use of Asynchronus authorizations are implemented to enhance the UX and also reduce hassles such as timeouts. The system also provides a proper legal framework for recurring payment processing.</p>"
 		},
 		{
-			"name":"",
-			"link":"",
-			"tagline":"<br><p></p>"
+			"name":"OtoDor",
+			"link":"https://bitbucket.org/acquaintances/otodor-esp8266",
+			"tagline":"Smart Door Lock<br><p></p>"
+		},
+		{
+			"name":"Auer",
+			"link":"https://bitbucket.org/account/user/acquaintances/projects/AUER",
+			"tagline":"Smart Plug<br><p>Hookup any electrical device to the Internet, to control, monitor and manage it.</p>"
 		},
 		{
 			"name":"",
@@ -93,11 +98,25 @@
 	],
 	"exps":[
 		{
-			"title":"Lead IoT Developer",
-			"period":"2014-2015",
+			"title":"IoT Developer",
+			"period":"Mar 2015 - Aug 2015",
 			"company":"Rabitech Technologies Pvt Ltd",
-			"detail1":"dsfds",
-			"detail2":"dsfds"
+			"detail1":"mef framework",
+			"detail2":""
+		},
+		{
+			"title":"Backend Developer",
+			"period":"Sep 2015 - Feb 2016",
+			"company":"Rabitech Technologies Pvt Ltd",
+			"detail1":"iMed framework",
+			"detail2":""
+		},
+		{
+			"title":"Embedded Systems Engineer",
+			"period":"Nov 2014 - Feb 2015",
+			"company":"Exploride, Inc",
+			"detail1":"Exploride HUD",
+			"detail2":""
 		}
 	],
 	"socs":[
@@ -143,40 +162,45 @@
 		{
 			"domain":"PHP",
 			"framework":"Laravel",
-			"pro":98
+			"pro":60
 		},
 		{
 			"domain":"PHP",
-			"pro":98
+			"pro":80
 		},
 		{
 			"domain":"Node.js",
 			"framework":"Express",
-			"pro":98
+			"pro":70
 		},
 		{
 			"domain":"Node.js",
 			"framework":"Total.js",
-			"pro":98
+			"pro":60
 		},
 		{
 			"domain":"Node.js",
 			"framework":"Socket.io",
-			"pro":98
+			"pro":80
 		},
 		{
 			"domain":"c#",
-			"pro":98
+			"pro":80
 		},
 		{
 			"domain":"c#",
 			"framework":"Xamarin",
-			"pro":98
+			"pro":80
 		},
 		{
-			"domain":"",
-			"framework":"Xamarin",
-			"pro":98
-		}
+			"domain":"c/c++/java",
+			"pro":80
+		},
+		{
+			"domain":"Javascript",
+			"framework":"jQuery",
+			"pro":80
+		},
+
 	]
 }
