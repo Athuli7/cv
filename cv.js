@@ -38,7 +38,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 			tempSkillview = tempSkillview.replace('#percent#',tempSkill.pro);
 			SkillView += tempSkillview;
 		}
-		rendered = rendered.replace('#skill#');
+		rendered = rendered.replace('#skill#',SkillView);
 		//footer
 		var depslist = "";
 		for(var depIn in package.dependencies){
