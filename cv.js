@@ -25,9 +25,9 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		//footer
 		var depslist = "";
 		for(var depIn in package.dependencies){
-			deplist = deplist + depIn + ',';
+			depslist = depslist + depIn + ',';
 		}
-		deplist = deplist.substring(-1);
+		depslist = depslist.substring(-1);
 		rendered = rendered.replace('#footer#',
 		"<small class=\"copyright\">Designed with <i class=\"fa fa-heart\">"+
 		"</i> on "+
