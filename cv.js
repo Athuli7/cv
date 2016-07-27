@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
+var phantom = require('phantom');
+
+var sitepage = null;
+var phInstance = null;
 
 var cvContentOptions = JSON.parse(fs.readFileSync('cvContentOptions.json'));
 var cvEngineOptions = JSON.parse(fs.readFileSync('cvEngineOptions.json'));
@@ -143,7 +147,31 @@ app.get('/', function(req, res){
 	res.render('norm',cvContentOptions);
 });
 
-//
+app.get('/download',function(req, res){
+	phantom.create()
+    .then(instance => {
+        phInstance = instance;
+        return instance.createPage();
+    })
+    .then(page => {
+        sitepage = page;
+        return page.open('https://stackoverflow.com/');
+    })
+    .then(status => {
+        console.log(status);
+        return sitepage.property('content');
+    })
+    .then(content => {
+        console.log(content);
+        sitepage.close();
+        phInstance.exit();
+    })
+    .catch(error => {
+        console.log(error);
+        phInstance.exit();
+    });
+    res.render(sitepage);
+});
 
 app.use(express.static('public'));
 
