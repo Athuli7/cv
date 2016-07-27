@@ -1,0 +1,18 @@
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">#title#</h3>
+                            <div class="time">#period#</div>
+                        </div><!--//upper-row-->
+                        <div class="company">#company#</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>
+                        #detail1#
+                        </p>
+                        <p>
+                        #detail2#
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                

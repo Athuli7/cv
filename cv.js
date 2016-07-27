@@ -6,9 +6,9 @@ var cvContentOptions = JSON.parse(fs.readFileSync('cvContentOptions.json'));
 var cvEngineOptions = JSON.parse(fs.readFileSync('cvEngineOptions.json'));
 var package = JSON.parse(fs.readFileSync('package.json'));
 
-//var exptemView = fs.readFileSync('views/expItemView.cv');
-var skillItemView = fs.readFileSync('views/skillItemView.cv','utf8');
-var projectItemView = fs.readFileSync('views/workItemView.cv');
+var expItemView = fs.readFileSync('views/expItemView.cv','utf8');
+var sklItemView = fs.readFileSync('views/sklItemView.cv','utf8');
+var porItemView = fs.readFileSync('views/proItemView.cv','utf8');
 
 app.engine('cv', function (filePath, options, callback) { // define the template engine
 	fs.readFile(filePath, function (err, content) {
@@ -26,25 +26,24 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		}
 		//social
 		//xp
+		
 		//works
-		var WorkView = "";
-		for(var workInd in cvContentOptions.works){
-			var tempWork = cvContentOptions.works[workInd];
-			var tempWorkview = "";
-			tempSkillview = skillItemView;
-			console.log(skillItemView);
-			tempWorkview = tempWorkview.replace('#name#', tempWork.name);
-			tempWorkview = tempWorkview.replace('#tagline#',tempWork.tagline);
+		var ProjectView = "";
+		for(var proInd in cvContentOptions.pros){
+			var tempPro = cvContentOptions.works[workInd];
+			var tempProView = "";
+			tempProView = proItemView;
+			tempProView = tempProView.replace('#name#', tempPro.name);
+			tempProView = tempProView.replace('#tagline#',tempPro.tagline);
 			SkillView += tempWorkview;
 		}
-		rendered = rendered.replace('#works#',SkillView);
+		rendered = rendered.replace('#works#',ProjectView);
 		//skill
 		var SkillView = "";
-		for(var skillInd in cvContentOptions.skills){
-			var tempSkill = cvContentOptions.skills[skillInd];
-			var tempSkillview = "";
-			tempSkillview = skillItemView;
-			console.log(skillItemView);
+		for(var skillInd in cvContentOptions.skls){
+			var tempSkill = cvContentOptions.skls[skillInd];
+			var tempSkillView = "";
+			tempSkillView = skillItemView;
 			tempSkillview = tempSkillview.replace('#skillname#', tempSkill.domain + "[" + tempSkill.framework + "]" );
 			tempSkillview = tempSkillview.replace('#percent#',tempSkill.pro);
 			SkillView += tempSkillview;
@@ -56,7 +55,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 			depslist = depslist + depIn + ',';
 		}
 		depslist = depslist.substring(0,depslist.length-1);
-		rendered = rendered.replace('#footer#',
+		rendered = rendered.replace('#fotView#',
 		"<small class=\"copyright\">Designed with <i class=\"fa fa-heart\">"+
 		"</i> on "+ "<a href=\"https://nodejs.org/\">Node.js </a>("+depslist+")"+
 		" by "+package.author+ " under a "+package.license+" license"+

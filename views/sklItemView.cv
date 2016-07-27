@@ -1,5 +1,5 @@
                     <div class="item">
-                        <h3 class="level-title">#skillname#</h3>
+                        <h3 class="level-title">#name#</h3>
                         <div class="level-bar">
                             <div class="level-bar-inner" data-level="#percent#%">
                             </div>                                      
