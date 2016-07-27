@@ -5,6 +5,23 @@
 	"stylecss": "styles.css",
 	"tagline" : "Developer",
 	"intro" : "",
+	"lans":[
+		{
+			"name":"English",
+			"pro":"Professional"
+		},
+		{
+			"name":"Malayalam",
+			"pro":"Native"
+		}
+	],
+	"edus":[
+		{
+			"degree":"B.Tech Computer Science",
+			"university":"Cochin University",
+			"period":"2012 - 2016"
+		}
+	],
 	"pros":[
 		{
 			"name":"NaviGo",
@@ -32,12 +49,6 @@
 			"text" : "mail@athulraj.com"
 		},
 		{
-			"liclass" : "twitter",
-			"iclass" : "fa fa-twitter",
-			"href" : "https://twitter.com/i_athul",
-			"text" : "@i_athul"
-		},
-		{
 			"liclass" : "phone",
 			"iclass" : "fa fa-phone",
 			"href" : "tel:+919020508050",
@@ -60,7 +71,14 @@
 			"iclass" : "fa fa-github",
 			"href" : "https://github.com/athuli7",
 			"text" : "github.com/athuli7"
+		},
+		{
+			"liclass" : "twitter",
+			"iclass" : "fa fa-twitter",
+			"href" : "https://twitter.com/i_athul",
+			"text" : "@i_athul"
 		}
+		
 	],
 	"skls":[
 		{

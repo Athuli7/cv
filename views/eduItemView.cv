@@ -1,5 +1,5 @@
 				<div class="item">
-                    <h4 class="degree">B.Tech Computer Science</h4>
-                    <h5 class="meta">Cochin University</h5>
-                    <div class="time">2012 - 2016</div>
+                    <h4 class="degree">#degree#</h4>
+                    <h5 class="meta">#university#</h5>
+                    <div class="time">#period#</div>
                 </div><!--//item-->

@@ -41,6 +41,29 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 			SocView += tempSocView;
 		}
 		rendered = rendered.replace('#socView#',SocView);
+		//education
+		var EduView = "";
+		for(var eduInd in cvContentOptions.edus){
+			var tempEdu = cvContentOptions.edus[eduInd];
+			var tempEduView = "";
+			tempEduView = eduItemView;
+			tempEduView = tempEduView.replace('#degree#', tempEdu.degree);
+			tempEduView = tempEduView.replace('#university#', tempEdu.university);
+			tempEduView = tempEduView.replace('#period#', tempEdu.period);
+			EduView += tempEduView;
+		}
+		rendered = rendered.replace('#eduView#',EduView);
+		//lancation
+		var LanView = "";
+		for(var lanInd in cvContentOptions.lans){
+			var tempLan = cvContentOptions.lans[lanInd];
+			var tempLanView = "";
+			tempLanView = lanItemView;
+			tempLanView = tempLanView.replace('#name#', tempLan.name);
+			tempLanView = tempLanView.replace('#pro#', tempLan.pro);
+			LanView += tempLanView;
+		}
+		rendered = rendered.replace('#lanView#',LanView);
 		//xp
 		var ExpView = "";
 		for(var expInd in cvContentOptions.exps){
