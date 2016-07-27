@@ -30,8 +30,8 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		}
 		//social
 		var SocView = "";
-		for(var socInd in cvContentOptions.exps){
-			var tempSoc = cvContentOptions.exps[socInd];
+		for(var socInd in cvContentOptions.socs){
+			var tempSoc = cvContentOptions.socs[socInd];
 			var tempSocView = "";
 			tempSocView = socItemView;
 			tempSocView = tempSocView.replace('#text#', tempSoc.text);
