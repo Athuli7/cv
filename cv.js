@@ -33,7 +33,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		"</i> on "+ "<a href=\"https://nodejs.org/\">Node.js </a>("+depslist+")"+
 		" by "+package.author+ " under a "+package.license+" license"+
 		"</small>"+"<br><small class=\"copyright\">updated copy always available at "+
-		"a href=\""+options.linktocv+"\">"+options.linktocv+"</a></small>"+
+		"a href=\""+options.linktocv+"\">"+options.linktocv+"</a></small>"
 		);
 	    //!Me
 	    return callback(null, rendered);
