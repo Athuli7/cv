@@ -2,13 +2,16 @@ var express = require('express');
 var app = express();
 var path = require('path');
 
-app.get('/', function(req, res){
-  res.send('hello world');
+app.get('/redirect', function(req, res){
+	res.redirect(302,'/');
 });
 
-app.get('/index.html', function(req, res){
-  res.send('index');
-});
+/*
+app.get('/redirect', function(req, res){
+	
+});*/
+
+//
 
 app.use(express.static('public'));
 
