@@ -26,7 +26,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		}
 		//social
 		//xp
-		
+
 		//works
 		var ProjectView = "";
 		for(var proInd in cvContentOptions.pros){
@@ -35,7 +35,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 			tempProView = proItemView;
 			tempProView = tempProView.replace('#name#', tempPro.name);
 			tempProView = tempProView.replace('#tagline#',tempPro.tagline);
-			SkillView += tempWorkview;
+			ProjectView += tempProview;
 		}
 		rendered = rendered.replace('#works#',ProjectView);
 		//skill
