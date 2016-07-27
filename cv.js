@@ -15,7 +15,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
     //rendered = rendered.replace('#author#', '<meta name="author" content="'+options.author+'">');
     //rendered = rendered.replace('#stylecss#', '<link id="theme-style" rel="stylesheet" href="assets/css/'+options.stylecss+'">');
     //rendered.replace('', ''+options.author+'');
-    	rendered = rendered.replace(opt[0],opt[1],cvContentOptions[opt[2]],opt[3]);
+    	rendered = rendered.replace(opt[0],opt[1],options[opt[2]],opt[3]);
 	}
     //!Me
     return callback(null, rendered);
@@ -30,7 +30,7 @@ app.get('/redirect', function(req, res){
 });
 
 app.get('/', function(req, res){
-	res.render('norm',gOpts);
+	res.render('norm',cvContentOptions);
 });
 
 //
