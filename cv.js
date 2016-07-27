@@ -31,7 +31,8 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		var SkillView = "";
 		for(var skillInd in cvContentOptions.skills){
 			var tempSkill = cvContentOptions.skills[skillInd];
-			var tempSkillview = skillItemView;
+			var tempSkillview = "";
+			tempSkillview = skillItemView;
 			tempSkillview = tempSkillview.replace('#skillname#',tempSkill.domain+"["+tempSkill.framework+"]");
 			tempSkillview = tempSkillview.replace('#percent#',tempSkill.pro);
 			SkillView += tempSkillview;
