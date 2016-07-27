@@ -4,7 +4,7 @@
 	"linktocv" : "cv.athulraj.com",
 	"stylecss": "styles.css",
 	"tagline" : "Developer",
-	"intro" : "",
+	"intro" : "I love anything that can built and/or hacked. ",
 	"ints":[
 		{
 			"name":"Internet of Things"
@@ -43,7 +43,7 @@
 		{
 			"name":"NaviGo",
 			"link":"https://rtloc.tk",
-			"tagline":"RT Location Services<br><p>A p2p e2e encypted service for location sharing, chat and voice calls</p>"
+			"tagline":"RT Location Services<br><p>A p2p e2e encypted service for location sharing, chat and voice calls.</p>"
 		},
 		{
 			"name":"Pipeline",
@@ -58,17 +58,17 @@
 		{
 			"name":"Giller",
 			"link":"https://www.npmjs.com/package/giller",
-			"tagline":"Webhook Handler<br><p>A Node.js based webhook handler for trigger event from version control systems such as github and bitbucket</p>"
+			"tagline":"Webhook Handler<br><p>A Node.js based webhook handler for trigger events from version control systems such as github and bitbucket.</p>"
 		},
 		{
 			"name":"CodEngine",
 			"link":"https://bitbucket.org/codengineplatform/codengine",
-			"tagline":"Online Code Compiler<br><p>Organisation require developers who can code. There is no better way to check a developer's competance. Codengine strives to achieve this.</p>"
+			"tagline":"Online Code Compiler<br><p>Organisation require developers who can code. There is no better way to check a developer's competance than to check his ability to solve mathematical problems using code. Codengine strives to achieve this.CodEngine also helps evaluate domain knowledge and ability to leverage it.</p>"
 		},
 		{
 			"name":"mef",
 			"link":"https://www.npmjs.com/package/mef",
-			"tagline":"Mobile Entity Framework<br><p>A framework to Track, Ping and recieve inputs from mobile entities place on/with persons, assets and employees.<br>Trackers form the base of the system. Each tracker is connected to a network, of which the Server is part. Each tracker uses a Last Mile Delivery system to interact with a Mobile Entity. The Tracker is essentially a distributed proxy for the Server and is responsible for delivering the pings, identifying inputs and reporting presence to the server. The design is meant to accomodate all configurations. But wherever such accomodations haven't been taken into consideration, the design is aligned towards deployment in a Hospital.</p>"
+			"tagline":"Mobile Entity Framework<br><p>A framework to Track, Ping and recieve inputs from mobile entities place on/with persons, assets and employees.<br>Trackers form the base of the system. Each tracker is connected to a network, of which the Server is part. Each tracker uses a Last Mile Delivery system to interact with a Mobile Entity. The Tracker is essentially a distributed proxy for the Server and is responsible for delivering the pings, identifying inputs and reporting presence to the server.</p>"
 		},
 		{
 			"name":"iMed",
@@ -83,22 +83,22 @@
 		{
 			"name":"OtoDor",
 			"link":"https://bitbucket.org/acquaintances/otodor-esp8266",
-			"tagline":"Smart Door Lock<br><p></p>"
+			"tagline":"Smart Door Lock<br><p>Doors locks are an unavoidable hassle of our lives.OtoDor eases this hassle by creating smart spaces that permit keyless entry using BodyCom technologies and IoT Systems. OtoDor further implements a system of user authentication, authorization and accounting.</p>"
 		},
 		{
 			"name":"Auer",
 			"link":"https://bitbucket.org/account/user/acquaintances/projects/AUER",
-			"tagline":"Smart Plug<br><p>Hookup any electrical device to the Internet, to control, monitor and manage it.</p>"
+			"tagline":"Smart Plug<br><p>Hookup any electrical device to the Internet, to control, monitor and manage it. Features include, remote access, timed opertaion, surge protection, energy analytics and intelligence.</p>"
 		},
 		{
 			"name":"RunACorp",
 			"link":"http://runacorp.com/",
-			"tagline":"Enterprise Software Services<br><p>CRM, HRM, ERP etc.</p>"
+			"tagline":"Enterprise Software Services<br><p>A suit of SaaS solutions to aid companies in running thier businesses. The solutions provided catered to HRM and CRM applications</p>"
 		}
 	],
 	"exps":[
 		{
-			"title":"IoT Developer",
+			"title":"Embedded Systems Developer",
 			"period":"Mar 2015 - Aug 2015",
 			"company":"Rabitech Technologies Pvt Ltd",
 			"detail1":"mef framework",
@@ -108,7 +108,7 @@
 			"title":"Backend Developer",
 			"period":"Sep 2015 - Feb 2016",
 			"company":"Rabitech Technologies Pvt Ltd",
-			"detail1":"iMed framework",
+			"detail1":"mef and iMed frameworks",
 			"detail2":""
 		},
 		{
@@ -184,12 +184,12 @@
 		},
 		{
 			"domain":"c#",
-			"pro":80
+			"pro":70
 		},
 		{
 			"domain":"c#",
 			"framework":"Xamarin",
-			"pro":80
+			"pro":60
 		},
 		{
 			"domain":"c/c++/java",
@@ -198,7 +198,7 @@
 		{
 			"domain":"Javascript",
 			"framework":"jQuery",
-			"pro":80
+			"pro":70
 		}
 	]
 }

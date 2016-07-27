@@ -22,7 +22,8 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 	    if (err) return callback(new Error(err));// this is an extremely simple template engine
 	    //Me
 	    var rendered = content.toString();
-	    console.log(cvEngineOptions);
+	    //basic
+	    rendered = rendered.replace('#intro#',cvContentOptions['intro']);
 	    //info
 	    for (var cvEOin in cvEngineOptions){
 	    	var tempcvEO = cvEngineOptions[cvEOin];
