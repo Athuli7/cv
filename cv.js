@@ -31,8 +31,8 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		//social
 		//xp
 		var ExpView = "";
-		for(var proInd in cvContentOptions.exp){
-			var tempExp = cvContentOptions.exp[expInd];
+		for(var proInd in cvContentOptions.exps){
+			var tempExp = cvContentOptions.exps[expInd];
 			var tempExpView = "";
 			tempExpView = expItemView;
 			tempExpView = tempExpView.replace('#title#', tempExp.title);
