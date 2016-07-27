@@ -29,6 +29,18 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		    );
 		}
 		//social
+		var SocView = "";
+		for(var socInd in cvContentOptions.exps){
+			var tempSoc = cvContentOptions.exps[socInd];
+			var tempSocView = "";
+			tempSocView = socItemView;
+			tempSocView = tempSocView.replace('#text#', tempSoc.text);
+			tempSocView = tempSocView.replace('#href#', tempSoc.href);
+			tempSocView = tempSocView.replace('#iclass#', tempSoc.iclass);
+			tempSocView = tempSocView.replace('#liclass#', tempSoc.liclass);
+			SocView += tempSocView;
+		}
+		rendered = rendered.replace('#socView#',SocView);
 		//xp
 		var ExpView = "";
 		for(var expInd in cvContentOptions.exps){

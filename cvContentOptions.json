@@ -24,11 +24,44 @@
 			"detail2":"dsfds"
 		}
 	],
-	"social":{
-		"twitter":{
-
+	"social":[
+		{
+			"liclass" : "email",
+			"iclass" : "fa fa-envelope",
+			"href" : "mailto: mail@athulraj.com",
+			"text" : "mail@athulraj.com"
+		},
+		{
+			"liclass" : "twitter",
+			"iclass" : "fa fa-twitter",
+			"href" : "https://twitter.com/i_athul",
+			"text" : "@i_athul"
+		},
+		{
+			"liclass" : "phone",
+			"iclass" : "fa fa-phone",
+			"href" : "tel:+919020508050",
+			"text" : "+91 9020 508050"
+		},
+		{
+			"liclass" : "website",
+			"iclass" : "fa fa-globe",
+			"href" : "https://athulraj.com/",
+			"text" : "athulraj.com"
+		},
+		{
+			"liclass" : "linkedin",
+			"iclass" : "fa fa-linkedin",
+			"href" : "https://in.linkedin.com/in/athul-raj-b6070767",
+			"text" : "linkedin.com/in/athul-raj"
+		},
+		{
+			"liclass" : "github",
+			"iclass" : "fa fa-github",
+			"href" : "https://github.com/athuli7",
+			"text" : "github.com/athuli7"
 		}
-	},
+	],
 	"skls":[
 		{
 			"domain":"PHP",

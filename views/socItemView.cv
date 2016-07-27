@@ -1,6 +1,2 @@
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: mail@athulraj.com">mail@athulraj.com</a></li>
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:+919020508050">+91 9020 508050</a></li>
-                    <li class="website"><i class="fa fa-globe"></i><a href="https://athulraj.com/" target="_blank">athulraj.com</a></li>
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://in.linkedin.com/in/athul-raj-b6070767" target="_blank">linkedin.com/in/athul-raj</a></li>
-                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/athuli7" target="_blank">github.com/athuli7</a></li>
-                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/i_athul" target="_blank">@i_athul</a></li>
+<li class="#liclass#"><i class="#iclass#"></i><a href="#href#" target="_blank">#text#</a></li>
+                    
