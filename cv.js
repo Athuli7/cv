@@ -18,7 +18,7 @@ app.get('/redirect', function(req, res){
 
 
 app.get('/redirect', function(req, res){
-	app.render(index);
+	res.render(index);
 });
 
 //
