@@ -31,7 +31,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		rendered = rendered.replace('#footer#',
 		"<small class=\"copyright\">Designed with <i class=\"fa fa-heart\">"+
 		"</i> on "+
-		"<a href=\"https://nodejs.org/\">Node.js</a>("+deplist+")"+
+		"<a href=\"https://nodejs.org/\">Node.js</a>("+depslist+")"+
 		" by "+package.author+ " under a "+package.license+" license"+
 		"</small>");
 	    //!Me
