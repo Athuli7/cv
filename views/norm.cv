@@ -153,23 +153,7 @@
                 <div class="intro">
                     <p><!--Intro--></p>
                 </div><!--//intro-->
-                <div class="item">
-                    <span class="project-title"><a href="https://allopay.scalexy.com/">AlloPay</a></span> - <span class="project-tagline">An anyschronus payment gateway for recurring payments.</span>
-                    
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/anushbmx/pipeline" target="_blank">Pipeline</a></span> - 
-                    <span class="project-tagline">A freeform Electronic Document management system. </span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="https://github.com/anushbmx/srgen" target="_blank">SRGen</a></span> - <span class="project-tagline">A plugin for the pipeline EDMS, facilitates form filling</span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="https://" target="_blank"></a></span> - <span class="project-tagline">A comprehensive website template solution for startups/developers to market their mobile apps. </span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank">Delta</a></span> - <span class="project-tagline">A responsive Bootstrap one page theme designed to help app developers promote their mobile apps</span>
-                </div><!--//item-->
+                #works#
             </section><!--//section-->
             
             <section class="skills-section section">

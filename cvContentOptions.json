@@ -7,7 +7,12 @@
 	"intro" : "",
 	"works":[
 		{
-			"name":"NaviGo"
+			"name":"NaviGo",
+			"tagline":"RT Location"
+		},
+		{
+			"name":"NaviGo",
+			"tagline":"RT Location"
 		}
 	],
 	"xp":[

@@ -8,7 +8,7 @@ var package = JSON.parse(fs.readFileSync('package.json'));
 
 //var exptemView = fs.readFileSync('views/expItemView.cv');
 var skillItemView = fs.readFileSync('views/skillItemView.cv','utf8');
-//var projecttemView = fs.readFileSync('views/projectItemView.cv');
+var projectItemView = fs.readFileSync('views/projectItemView.cv');
 
 app.engine('cv', function (filePath, options, callback) { // define the template engine
 	fs.readFile(filePath, function (err, content) {
@@ -25,8 +25,19 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		    );
 		}
 		//social
-		//works
 		//xp
+		//works
+		var WorkView = "";
+		for(var workInd in cvContentOptions.works){
+			var tempWork = cvContentOptions.works[workInd];
+			var tempWorkview = "";
+			tempSkillview = skillItemView;
+			console.log(skillItemView);
+			tempWorkview = tempWorkview.replace('#name#', tempWork.name);
+			tempWorkview = tempWorkview.replace('#tagline#',tempWork.tagline);
+			SkillView += tempWorkview;
+		}
+		rendered = rendered.replace('#works#',SkillView);
 		//skill
 		var SkillView = "";
 		for(var skillInd in cvContentOptions.skills){
