@@ -10,6 +10,6 @@ app.get('/index.html', function(req, res){
   res.send('index');
 });
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
 
 app.listen(9001,'0.0.0.0');
