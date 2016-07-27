@@ -31,7 +31,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 		//social
 		//xp
 		var ExpView = "";
-		for(var proInd in cvContentOptions.exps){
+		for(var expInd in cvContentOptions.exps){
 			var tempExp = cvContentOptions.exps[expInd];
 			var tempExpView = "";
 			tempExpView = expItemView;
