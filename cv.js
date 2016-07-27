@@ -1,11 +1,8 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var gOpts = {
-	title	: 'Athul Raj\'s CV',
-	author	: 'Athul Raj',
-	stylecss: 'styles.css'
-};
+var gOpts = JSON.parse(fs.readFileSync('options.json');
+
 app.engine('cv', function (filePath, options, callback) { // define the template engine
   fs.readFile(filePath, function (err, content) {
     if (err) return callback(new Error(err));// this is an extremely simple template engine
