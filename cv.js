@@ -10,17 +10,16 @@ app.engine('cv', function (filePath, options, callback) { // define the template
     //Me
     var rendered = content.toString();
     console.log(cvEngineOptions);
-    for (var opt in cvEngineOptions){
+    for (var cvEOin in cvEngineOptions){
     //rendered = rendered.replace('#title#', '<title>'+ options.title +'</title>');
     //rendered = rendered.replace('#description#','<meta name="description" content="'+options.title+'">');
     //rendered = rendered.replace('#author#', '<meta name="author" content="'+options.author+'">');
     //rendered = rendered.replace('#stylecss#', '<link id="theme-style" rel="stylesheet" href="assets/css/'+options.stylecss+'">');
     //rendered.replace('', ''+options.author+'');
+    	var tempcvEO = cvEngineOptions[cvEOin];
     	rendered = rendered.replace(
-	    	cvEngineOptions[opt][0],
-	    	cvEngineOptions[opt][1],
-	    	options[cvEngineOptions[opt][2]],
-	    	cvEngineOptions[opt][3]
+	    	tempcvEO[0],
+	    	tempcvEO[1] + options[tempcvEO[2]] + tempcvEO[3]
 	    );
 	}
     //!Me
