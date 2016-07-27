@@ -11,10 +11,10 @@ app.engine('cv', function (filePath, options, callback) { // define the template
     if (err) return callback(new Error(err));// this is an extremely simple template engine
     //Me
     var rendered = content.toString();
-    rendered.replace('#title#', '<title>'+ options.title +'</title>');
-    rendered.replace('#description#','<meta name="description" content="'+options.title+'">');
-    rendered.replace('#author#', '<meta name="author" content="'+options.author+'">');
-    rendered.replace('#stylecss#', '<link id="theme-style" rel="stylesheet" href="assets/css/'+options.stylecss+'">');
+    rendered = rendered.replace('#title#', '<title>'+ options.title +'</title>');
+    rendered = rendered.replace('#description#','<meta name="description" content="'+options.title+'">');
+    rendered = rendered.replace('#author#', '<meta name="author" content="'+options.author+'">');
+    rendered = rendered.replace('#stylecss#', '<link id="theme-style" rel="stylesheet" href="assets/css/'+options.stylecss+'">');
     //rendered.replace('', ''+options.author+'');
 
     //!Me
