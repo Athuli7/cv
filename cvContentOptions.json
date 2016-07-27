@@ -53,22 +53,42 @@
 		{
 			"name":"SRGen",
 			"link":"https://github.com/anushbmx/srgen",
-			"taglin":"Service Request Generator<br><p>Autofill for PDF forms. Most EDMS systems used PDF forms, which often required data to be entered. In many enterprises and institutions, such EDM systems required the same data to be added over and over. SRGen solves this by filling them for the user. Designed to be an optional suppliment to Pipeline.</p>"
+			"tagline":"Service Request Generator<br><p>Autofill for PDF forms. Most EDMS systems used PDF forms, which often required data to be entered. In many enterprises and institutions, such EDM systems required the same data to be added over and over. SRGen solves this by filling them for the user. Designed to be an optional suppliment to Pipeline.</p>"
 		},
 		{
-			"name":"SRGen",
-			"link":"",
-			"taglin":"<br><p></p>"
+			"name":"Giller",
+			"link":"https://www.npmjs.com/package/giller",
+			"tagline":"Webhook Handler<br><p>A Node.js based webhook handler for trigger event from version control systems such as github and bitbucket</p>"
 		},
 		{
-			"name":"SRGen",
-			"link":"",
-			"taglin":"<br><p></p>"
+			"name":"CodEngine",
+			"link":"https://bitbucket.org/codengineplatform/codengine",
+			"tagline":"Online Code Compiler<br><p>Organisation require developers who can code. There is no better way to check a developer's competance. Codengine strives to achieve this.</p>"
 		},
 		{
-			"name":"SRGen",
+			"name":"mef",
+			"link":"https://www.npmjs.com/package/mef",
+			"tagline":"Mobile Entity Framework<br><p>A framework to Track, Ping and recieve inputs from mobile entities place on/with persons, assets and employees.<br>Trackers form the base of the system. Each tracker is connected to a network, of which the Server is part. Each tracker uses a Last Mile Delivery system to interact with a Mobile Entity. The Tracker is essentially a distributed proxy for the Server and is responsible for delivering the pings, identifying inputs and reporting presence to the server. The design is meant to accomodate all configurations. But wherever such accomodations haven't been taken into consideration, the design is aligned towards deployment in a Hospital.</p>"
+		},
+		{
+			"name":"iMed",
+			"link":"https://www.npmjs.com/package/imed",
+			"tagline":"The frontend framework for the mef project.<br><p>iMed was designed to be the interface for managing and interacting with mobile entities on the network</p>"
+		},
+		{
+			"name":"Allopay",
+			"link":"https://allopay.scalexy.com",
+			"tagline":"Asynchronus Payment Processor / Gateway<br><p>Payment Gateway and Processors are using outdated methods, technologies and protocols. Allopay solves all of these in one go. Allopay is an centralised online platform for users to manage transactions related all accounts they hold in partner banks. All transactions are charged to the platform account and realised using EFTs between accounts. Electonic Standing Institutions and use of Asynchronus authorizations are implemented to enhance the UX and also reduce hassles such as timeouts. The system also provides a proper legal framework for recurring payment processing.</p>"
+		},
+		{
+			"name":"",
 			"link":"",
-			"taglin":"<br><p></p>"
+			"tagline":"<br><p></p>"
+		},
+		{
+			"name":"",
+			"link":"",
+			"tagline":"<br><p></p>"
 		}
 	],
 	"exps":[
