@@ -11,7 +11,7 @@
 	],
 	"xp":[
 		{
-			"company":
+			"name":"rabitech"
 		}
 	],
 	"social":{
@@ -57,7 +57,6 @@
 			"domain":"",
 			"framework":"Xamarin",
 			"pro":98
-		},
-
+		}
 	]
 }
