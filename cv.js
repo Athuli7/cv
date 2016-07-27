@@ -37,7 +37,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 			tempProView = tempProView.replace('#tagline#',tempPro.tagline);
 			ProjectView += tempProView;
 		}
-		rendered = rendered.replace('#works#',ProjectView);
+		rendered = rendered.replace('#proView#',ProjectView);
 		//skill
 		var SkillView = "";
 		for(var skillInd in cvContentOptions.skls){
@@ -48,7 +48,7 @@ app.engine('cv', function (filePath, options, callback) { // define the template
 			tempSkillView = tempSkillView.replace('#percent#',tempSkill.pro);
 			SkillView += tempSkillView;
 		}
-		rendered = rendered.replace('#skill#',SkillView);
+		rendered = rendered.replace('#sklView#',SkillView);
 		//footer
 		var depslist = "";
 		for(var depIn in package.dependencies){
