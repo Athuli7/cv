@@ -48,7 +48,7 @@
         <div class="sidebar-wrapper">
             <div class="profile-container">
                 <div class="image-cropper">
-                        <img class="profile" src="assets/images/profile.jpg" alt="" height="100" width="100"/>
+                        <img class="profile" src="assets/images/profile.jpeg" alt="" height="100" width="100"/>
                 </div>
                 <br>
                 #name#
