@@ -158,11 +158,11 @@
 		}
 	],
 	"skls":[
-		{
+		/*{
 			"domain":"PHP",
 			"framework":"Laravel",
 			"pro":60
-		},
+		},*/
 		{
 			"domain":"PHP",
 			"pro":80
